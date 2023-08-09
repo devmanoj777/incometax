@@ -1,0 +1,38 @@
+   <%-include('./partials/header.ejs')%>
+    <div class="main">
+      <p class="heading"><b>Income Tax Return(ITR)</b></p>
+      <div class="left-right">
+        <div class="left-side">
+          <div class="assessment">
+            <p style="text-align: center"><b>*Indicates mandatory fields</b></p>
+            <br />
+            <p>Select Assessment year <b>*</b></p>
+            <select name="" class="select">
+              <option value="select">Select</option>
+            </select>
+          </div>
+          <div class="mode">
+            <p>Select Mode of Filing <b>*</b></p>
+            <div class="check">
+              <input type="checkbox" name="checkbox" />
+              <label for="checkbox"><b>online</b>(Recommended) </label>
+              <input type="checkbox" name="checkbox" class="offline" />
+              <label for="checkbox"><b>Offline</b></label>
+            </div>
+          </div>
+          <br />
+          <div class="note">
+            <p><b>Note:</b> The user can select type of ITR applicable Later</p>
+          </div>
+        </div>
+        <div class="rigth-side">
+          <p>
+            <b>Information</b> <br />
+            If you select offline mode, you will need to update the ITR form
+            prepared using offline utility in the next step
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

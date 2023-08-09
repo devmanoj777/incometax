@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+
+
+}
+.main{
+    background-color: rgba(233, 236, 238, 0.959);
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;;
+   
+}
+.heading{
+    margin-left: 100px;
+    padding-top: 40px;
+    font-size: 30px;
+    
+}
+.left-side{
+    height: 45vh;
+    width: 800px;
+    padding: 25px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 15px;
+    border: 2px solid rgba(51, 51, 51, 0.151);
+    border-radius: 8px;
+    
+}
+.assessment{
+    margin-left: 15px;
+    font-size: 17px;
+    margin-top: 15px;
+
+}
+.assessment b{
+    color: red;
+}
+select{
+    height: 35px;
+    width: 300px;
+    background-color: white;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.mode{
+    margin-left: 15px;
+    font-size: 17px;
+    margin-top: 15px;
+
+}
+.mode p  b{
+    color: red;
+
+}
+.offline{
+    margin-left: 20px;
+
+}
+.mode label{
+    font-size: 15px;
+}
+.note{
+    background-color: rgb(202, 229, 238);
+    margin-left: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    height: 50px;
+    width: 450px;
+}
+.note p{
+    padding-top: 10px;
+}
+.check{
+    margin-top: 12px;
+}
+.rigth-side{
+    background-color: rgb(202, 229, 238);
+    height: 90px;
+    padding: 25px;
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.left-right{
+    display: flex;
+}
